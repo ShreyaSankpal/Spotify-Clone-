@@ -1,0 +1,300 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    background-color:black;
+    color:white;
+    overflow:hidden;
+}
+
+.main{
+    display:flex;
+    height:100vh;
+    padding:0.5rem;/*web par like lib and sidebar ke liye jagah miligi left mai*/
+}
+
+.sidebar{
+    background-color:black;
+    width:340px;
+    border-radius: 1rem;/*1rem=16px*/
+    margin-right:0.5rem;
+    
+}
+
+.main-content{
+    background-color:#121212;
+    flex:1;
+    border-radius:1rem;
+    overflow:auto;/*Scrollbar aaygya so u can scroll*/
+    padding:0 1.5rem 0 1.5rem;
+
+}
+
+.music-player{
+    background-color:black;
+    position:fixed;/*web par ye fixed ho jayega scroll karne par bhi nahi jayega*/
+    bottom:0px;
+    width:100%;
+    height:72px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.nav{
+    background-color:#121212;
+    border-radius:1rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;/*ye flex container ke items ko main axis par layega like ye column direction me hai to vertical center */
+    height:100px;
+    padding:0.5rem 0.75rem;/*Rem is used for making web more responsing when made small*/
+}
+
+ .nav-option{
+    line-height:2.5rem;/*it is basically the height between the line & height is the height of container*/
+    padding:0.5rem 0.75rem;
+    opacity:0.7;
+}
+ 
+.nav-option:hover{/*opacity is used transparent by hovering also opacity:1 (dark) 0.9... kam hota hai*/
+    opacity:1;
+}
+
+.nav-option i {
+    font-size:1.25rem;
+}
+
+.nav-option a {
+    font-size:1rem;
+    padding:1rem;
+}
+
+.library{
+    background-color:#121212;
+    border-radius: 1rem;
+    height:100%;
+
+}
+
+.options{
+    display:flex;
+    justify-content:space-between;/*puts first element at starting and last element at last*/
+    align-items:center;
+    margin-top:0.5rem;
+   padding:0.5rem 0.75rem;
+}
+
+.lib-options img{
+    height:1.25rem;
+    width:1.25rem;
+}
+.icon{
+    font-size:1.25rem;
+    opacity:0.7;
+    margin-right:1rem;
+    display:flex;
+}
+.icon:hover{
+    opacity:1;
+}
+
+.icon i{
+      opacity:0.7;
+    margin-right:1rem;
+}
+
+.box-p1{
+    font-size:1rem;
+    font-weight:500;
+}
+
+.box{
+    height:9rem;
+    margin:0.5rem 0 0.5rem 0;
+    padding:1rem 1.25rem;
+    background-color:#232323;
+    border-radius:0.75rem;
+}
+
+.box-p2{
+    font-size:0.5;
+    opacity:0.9;
+}
+
+.badge{
+    background-color:white;   
+    border:none;
+    border-radius:100px;
+    padding:0.25rem 1rem;
+    font-weight:700;
+    margin-top:0.5rem;
+    height:2rem;
+    width:fit content;
+}
+
+.sticky-nav{
+    padding:0.5rem 0 0 0;
+    justify-content:space-between;
+    display:flex;
+    position:sticky;
+    top:0;
+    background-color:#121212;
+    z-index:1000;
+}
+
+.badges{
+    background-color:black;
+    color:white;
+    border:none;
+    border-radius:100px;
+    padding:0.25rem 1rem;
+    font-weight:700;
+    margin-top:0.5rem;
+    margin-bottom:0;
+    height:2rem;
+    width:fit content;
+}
+
+.icons{
+    padding:1rem;
+    opacity:0.7;
+}
+
+@media(max-width:1000px){
+    #topbanner{
+        display:none;
+    }
+}
+
+.card-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.card{
+    background-color:#232323;
+    width:150px;
+    border-radius:0.5rem;
+    padding:1rem;
+    margin:0 0 1.5rem 1rem;
+}
+
+.card-img{
+    width:100%;
+    border-radius:0.5rem;
+}
+
+.card-title{
+    font-weight:600;
+}
+
+.card-info{
+    font-size:0.85rem;
+    opacity:0.8;
+}
+
+.footer{
+    height:300px;
+    align-content:center;
+    display:flex;
+    justify-content:center;
+
+}
+
+.line{
+    width:90%;
+    height:30%;
+    border-top:1px solid white;
+    opacity:0.4;
+    margin:100px 0 0 0 ;
+}
+
+#music{
+    height:72px;
+    width:72px;
+    margin:0 1rem 0 0;
+}
+
+.p1{
+    font-weight:500;
+    font-size:1rem;
+}
+
+.p2{
+    font-weight:200;
+    sont-size:0.75rem;
+}
+ 
+.my-icon{
+    font-size:15px;
+    padding:26px 0 26px 10px;
+    opacity:0.6;
+}
+
+.music-player{
+    display:flex;
+   /* justify-content:space-between;
+    align-items:center;/*items center karne ke liye alwys align item*/
+}
+
+
+.album{
+     width:25%;
+     display:flex;
+}
+
+.controls{
+    width:25%;
+}
+
+.player{
+    width:50%;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto;/*tells the browser that take remaining space and divide in equal parts*/
+   
+}
+
+.logo{
+    height:1rem;
+    margin-right:2rem;
+    opacity:0.7;
+}
+
+.logo:hover{
+    opacity:1;
+}
+
+#icon3{
+    height:2rem;
+    opacity:1;
+}
+
+.player-controls{
+     display:flex;
+    align-items:center
+}
+
+.progress-bar{
+    width:70%;
+    appearance: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
