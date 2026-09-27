@@ -90,29 +90,6 @@ The goal of this project was to move beyond basic HTML/CSS exercises and build a
 
 It helped me understand how individual UI elements such as navigation, playlists, cards and a music player can be combined into one cohesive web experience.
 
----
-
-## 🔮 Future Improvements
-
-Planned improvements include:
-
-* [ ] JavaScript-based music controls
-* [ ] Play / pause functionality
-* [ ] Working search
-* [ ] Dynamic playlists
-* [ ] Music progress bar
-* [ ] Volume controls
-* [ ] Responsive mobile navigation
-* [ ] Spotify API integration
-* [ ] User authentication
-
----
-
-## 📚 Disclaimer
-
-This project is created for **educational and portfolio purposes** and is not affiliated with or endorsed by Spotify.
-
----
 
 ## 👩‍💻 Author
 
