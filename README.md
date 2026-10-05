@@ -65,10 +65,6 @@ Spotify-Clone/
 └── README.md
 ```
 
-> Update the structure above if your actual folder/file names are different.
-
----
-
 ## 💡 What I Learned
 
 Through this project, I practiced:
@@ -96,8 +92,3 @@ It helped me understand how individual UI elements such as navigation, playlists
 **Shreya Sankpal**
 
 Computer Engineering Student
-
-
----
-
-⭐ If you found this project useful, feel free to explore the repository and follow my development journey.
